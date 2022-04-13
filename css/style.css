@@ -1,0 +1,84 @@
+/* tekst styling */
+h1 {
+    font-family: futura;
+    color: #e0e1a4;
+    font-size: 50px;
+}
+h2{
+    font-family: futura;
+    color: #e0e1a4;
+    position: relative;
+    left: 29cm;
+    font-size: 70px;
+}
+
+text{
+    font-family: futura;
+    color: #e0e1a4;
+    font-size: 18px;
+}
+
+/* Homepage */
+.mens{
+    text-align: center;
+}
+
+body {
+    background:  radial-gradient(circle at center, #0821ae,rgb(28, 32, 59))
+}
+
+
+/* cirkels bloedbaan */
+
+#cirkels_arm,
+#cirkels_rood,
+#cirkels_blauw,
+#cirkels_blauw_boven{
+    transition: all 1s ease;
+}
+
+svg:hover #cirkels_arm{
+    transform: translateY(-2.55%);
+    transition: all 5s ease-in-out;
+}
+
+svg:hover #cirkels_rood{
+    transform: translateY(-23.33%);
+    transition: all 5s ease-in-out;
+}
+
+svg:hover #cirkels_blauw_onder{
+    transform: translateY(14.5%);
+    transition: all 5s ease-in-out;
+}
+
+svg:hover #cirkels_blauw_boven{
+    transform: translateY(9.52%);
+    transition: all 5s ease-in-out;
+}
+
+/* cirkels maag */
+svg:hover #cirkels { 
+    transform: translateY(4.7%);
+    transition: all 3s ease-in-out;
+    pointer-events: all;
+}
+svg:hover #persoon{
+    pointer-events: none;
+}
+
+
+/* cirkels longen */
+svg:hover #cirkels_midden{
+    transform: translateY(11%);
+    transition: all 5s ease-in-out;
+    pointer-events: all;
+}
+
+svg:hover #cirkels_links{
+    transform: translateY(2.7%);
+    transform: translateX(-2.2%);
+    transition: all 5s ease-in-out;
+    pointer-events: all;
+}
+
